@@ -1,7 +1,4 @@
-/conf.d/Master/
-/conf.d/Caves/
-/conf.d/cluster.ini
-/conf.d/cluster_token.txt
-!/conf.d/Caves/server.ini
-!/conf.d/Caves/worldgenoverride.lua
-!/conf.d/Master/server.ini
+.DS_Store
+/conf.d
+/server.d
+**.sw*
