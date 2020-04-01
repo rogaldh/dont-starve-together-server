@@ -8,6 +8,13 @@ Copy config which could be generated as described [here](https://accounts.klei.c
 
 `_server.d` directory contains mods configuration sample.
 
+### Backup
+
+```
+export VOL_VERSION=<volume version>
+docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,source=/root/backup,target=/root/backup -t debian:stretch-slim /bin/bash
+```
+
 ## Links
 
 - https://github.com/CM2Walki/steamcmd
