@@ -15,6 +15,10 @@ export VOL_VERSION=<volume version>
 docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,source=/root/backup,target=/root/backup -t debian:stretch-slim /bin/bash
 ```
 
+### Client mods
+
+`873350047, 1608191708, 351325790, 376333686, 714735102, 345692228, 727774324`
+
 ## Links
 
 - https://github.com/CM2Walki/steamcmd
