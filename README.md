@@ -26,3 +26,4 @@ docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,so
 - https://developer.valvesoftware.com/wiki/Dedicated_Servers_List
 - https://forums.kleientertainment.com/forums/topic/64552-dedicated-server-settings-guide/
 - https://forums.kleientertainment.com/forums/topic/64441-dedicated-server-quick-setup-guide-linux/
+- https://dontstarve.fandom.com/wiki/Guides/Simple_Dedicated_Server_Setup#Playing
