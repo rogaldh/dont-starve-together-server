@@ -1,5 +1,5 @@
 FROM cm2network/steamcmd:root as steamcmd
-FROM debian:stretch-slim
+FROM debian:stable-20230612-slim
 
 RUN set -x
 RUN dpkg --add-architecture i386
@@ -33,7 +33,7 @@ RUN mkdir -p /home/steam/.klei/DoNotStarveTogether/DediServer
 COPY ./conf.d/ /home/steam/.klei/DoNotStarveTogether/DediServer
 RUN chown -R steam:steam /home/steam/.klei
 
-COPY ./install.sh /home/steam
+COPY ./scripts/install.sh /home/steam
 COPY ./run.bash /home/steam
 RUN chown steam:steam /home/steam/install.sh \
   && chown steam:steam /home/steam/run.bash

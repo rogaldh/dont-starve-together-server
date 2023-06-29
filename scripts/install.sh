@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh -e
 
 steamcmd_dir=${HOME}/steamcmd
 
