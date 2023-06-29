@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-./install.sh
+./scripts/install.sh
 # validate bin
 
 cd ${HOME}/dontstarvetogether_dedicated_server/bin

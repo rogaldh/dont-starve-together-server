@@ -10,6 +10,11 @@
 	--Example: http://steamcommunity.com/sharedfiles/filedetails/?id=379114180
 	--ServerModCollectionSetup("379114180")
 
+-- [Ocean Currents](https://steamcommunity.com/sharedfiles/filedetails/?id=2485482489)
+ServerModSetup("2485482489")
+-- [Simple Health Bar DST](https://steamcommunity.com/sharedfiles/filedetails/?id=1207269058)
 ServerModSetup("1207269058")
+-- [Global Positions](https://steamcommunity.com/sharedfiles/filedetails/?id=378160973)
 ServerModSetup("378160973")
+-- [Show Me (Origin)](https://steamcommunity.com/sharedfiles/filedetails/?id=666155465)
 ServerModSetup("666155465")

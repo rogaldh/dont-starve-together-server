@@ -4,7 +4,9 @@ build:
 	docker build -t dst-server:$(VERSION) .
 
 server:
-	VOL_VERSION=$(VOL_VERSION) VERSION=$(VERSION) ./start.sh
+	scripts/check-version.sh
+	VOL_VERSION=$(VOL_VERSION) VERSION=$(VERSION) ./scripts/start.sh
 
 server-no-mods:
-	VOL_VERSION=$(VOL_VERSION) VERSION=$(VERSION) ./start-no-mods.sh
+	scripts/check-version.sh
+	VOL_VERSION=$(VOL_VERSION) VERSION=$(VERSION) ./scripts/start-no-mods.sh
