@@ -11,6 +11,7 @@ scp DSTConfig <%user%>@<%server%>:/home/<%user%>/dont-starve-together-server/con
 cp -r _server.d server.d
 ```
 
+
 ### Build Image
 
 ```sh
@@ -26,9 +27,13 @@ VERSION=<%build_version%> VOL_VERSION=<%volume_version%> make server
 
 ### Backup
 
-```
-export VOL_VERSION=<volume version>
-docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,source=/root/backup,target=/root/backup -t debian:stretch-slim /bin/bash
+```sh
+export VOL_VERSION=<%volume_version%>
+docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,source=/root/backup,target=/root/backup -t debian:stable-20230612-slim /bin/bash
+
+// OR
+export VOL_VERSION=<%volume_version%>
+./scripts/connect.sh
 ```
 
 
@@ -55,8 +60,8 @@ docker run -i --volume dst_server${VOL_VERSION}:/root/.klei --mount type=bind,so
 - [Minimap HUD](https://steamcommunity.com/sharedfiles/filedetails/?id=345692228)
 - [Craft Pot [DS, ROG, SW, DST]](https://steamcommunity.com/sharedfiles/filedetails/?id=727774324)
 - [Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=836583293)
-- [?Map controls Removal](https://steamcommunity.com/sharedfiles/filedetails/?id=537685330)
-- [?Snapping tills](https://steamcommunity.com/sharedfiles/filedetails/?id=2302837868)
+- [Snapping tills](https://steamcommunity.com/sharedfiles/filedetails/?id=2302837868)
+- [Skins extender](https://steamcommunity.com/sharedfiles/filedetails/?id=1653324376)
 
 
 ## Links
