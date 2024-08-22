@@ -14,4 +14,5 @@ docker run -di \
   -p 10889:10889 \
   -p 12345:12345 \
   -p 12346:12346 \
+  --name dst-server \
   -t dst-server:${VERSION}

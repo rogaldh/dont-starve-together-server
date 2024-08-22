@@ -36,6 +36,31 @@ export VOL_VERSION=<%volume_version%>
 ./scripts/connect.sh
 ```
 
++### Server Mods
++
++- [Ocean Currents](https://steamcommunity.com/sharedfiles/filedetails/?id=2485482489)
++- [Show Me](https://steamcommunity.com/sharedfiles/filedetails/?id=666155465)
++- [Simple Health Bar DST](https://steamcommunity.com/sharedfiles/filedetails/?id=1207269058)
++- [Global Positions](https://steamcommunity.com/sharedfiles/filedetails/?id=378160973)
++
++
++#### Fordge event
++
++- [ReForged](https://steamcommunity.com/sharedfiles/filedetails/?id=1938752683)
++- [Re-Gorge-itated](https://steamcommunity.com/sharedfiles/filedetails/?id=1918927570)
++
+
++- [ActionQueue Reborn](https://steamcommunity.com/workshop/filedetails/?id=1608191708)
++- [Geometric Placement](https://steamcommunity.com/sharedfiles/filedetails/?id=351325790)
++- [Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
++- [Waypoint](https://steamcommunity.com/sharedfiles/filedetails/?id=714735102)
++- [Minimap HUD](https://steamcommunity.com/sharedfiles/filedetails/?id=345692228)
++- [Craft Pot [DS, ROG, SW, DST]](https://steamcommunity.com/sharedfiles/filedetails/?id=727774324)
++- [Item Info](https://steamcommunity.com/sharedfiles/filedetails/?id=836583293)
++- [?Map controls Removal](https://steamcommunity.com/sharedfiles/filedetails/?id=537685330)
++- [Snapping tills](https://steamcommunity.com/sharedfiles/filedetails/?id=2302837868)
++
+
 
 ### Server Mods
 
